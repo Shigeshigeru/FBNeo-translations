@@ -139,7 +139,7 @@ menu    100 {
       10125   72 ""
     }
           //-- "&Blitter options"
-    10643   73 "&Blitter オプション"
+    10643   73 "Blitter オプション(&B)"
           //-- "&Stretch"
     popup   74 "ストレッチ(&S)" {
             //-- "&Normal stretch"
@@ -150,24 +150,24 @@ menu    100 {
       10112   77 "アスペクト比を補正(&A)"
     }
           //-- "&Enable gamma correction"
-    10150   79 "ガンマコレクションを有効化"
+    10150   79 "ガンマコレクションを有効化(&E)"
           //-- "&Gamma correction settings"
-    popup   80 "ガンマコレクションの設定" {
+    popup   80 "ガンマコレクションの設定(&G)" {
             //-- "&Darken midtones"
-      10151   81 "中間を暗く"
+      10151   81 "中間を暗く(&D)"
             //-- "&Lighten midtones"
-      10152   82 "中間を明るく"
+      10152   82 "中間を明るく(&L)"
             //-- "MENU_GAMMA_OTHER"
       10153   83 "新しいガンマ"
             //-- "Use video &hardware when possible"
-      10154   85 "可能であればハードウェア処理を使用する"
+      10154   85 "可能であればハードウェア処理を使用する(&H)"
             //-- "Use video hardware &exclusively"
-      10155   86 "ハードウェアを使用する"
+      10155   86 "ハードウェアを使用する(&E)"
             //-- "Use &software exclusively"
-      10156   87 "ソフトウェアのみを使用する"
+      10156   87 "ソフトウェアのみを使用する(&S)"
     }
           //-- "&Window size"
-    popup   89 "ウィンドウサイズ" {
+    popup   89 "ウィンドウサイズ(&W)" {
             //-- "&Auto"
       10170   90 "自動(&A)"
             //-- "&Single size"
@@ -284,7 +284,7 @@ menu    100 {
           //-- "Force 60Hz refresh rate"
     10176  155 "リフレッシュレートを60Hzに固定"
           //-- "Enable &Triple Buffering (Fullscreen)"
-    10100  156 "トリプルバッファリングを有効化 (全画面)"
+    10100  156 "トリプルバッファリングを有効化 (全画面)(&T)"
           //-- "Enable Windowed Fullscreen (DX9 Blitters)"
     10646  157 "ボーダレスフルスクリーンを有効にする(DX9 Blitters)"
           //-- "Enable VSync (Windowed)"
@@ -308,9 +308,9 @@ menu    100 {
           //-- "Plugin &options"
     10663  166 "プラグインの設定(&O)"
           //-- "&Audio Volume"
-    popup  167 "オーディオボリューム" {
+    popup  167 "オーディオボリューム(&A)" {
             //-- "100% (max)"
-      10691  168 ""
+      10691  168 "100% (最大)"
             //-- "90%"
       10690  169 ""
             //-- "80%"
@@ -330,7 +330,7 @@ menu    100 {
             //-- "10%"
       10682  177 ""
             //-- "0% (mute)"
-      10681  178 ""
+      10681  178 "0% (消音)"
     }
           //-- "2-point 1st order sample interpolation"
     10231  180 "2-point 1st order サンプル補間"
@@ -341,7 +341,7 @@ menu    100 {
           //-- "4-point 3rd order FM interpolation"
     10243  184 "4-point 3rd order FM音源補間"
           //-- "&Sound logging"
-    popup  186 "サウンドの録音" {
+    popup  186 "サウンドの録音(&S)" {
             //-- "Log to file..."
       10606  187 "ファイルに録音..."
             //-- "Stop logging"
@@ -353,12 +353,12 @@ menu    100 {
         //-- "Input"
   popup  190 "インプット" {
           //-- "Select &plugin"
-    popup  191 "プラグインの選択" {
+    popup  191 "プラグインの選択(&P)" {
             //-- "DirectInput"
       10664  192 ""
     }
           //-- "&Auto-Fire Rate"
-    popup  194 "自動連射速度 &A" {
+    popup  194 "自動連射速度(&A)" {
             //-- "Slow"
       10260  195 "遅い"
             //-- "Medium"
@@ -373,7 +373,7 @@ menu    100 {
       10265  200 "超はやい"
     }
           //-- "&Rewind Settings"
-    popup  202 "&巻き戻し機能の設定" {
+    popup  202 "巻き戻し機能の設定(&R)" {
             //-- "Enabled"
       10280  203 "有効化"
             //-- "128MB"
@@ -415,15 +415,15 @@ menu    100 {
             //-- "Set application process priority "
       popup  223 "プロセスの優先度を設定" {
               //-- "High"
-        10311  224 ""
+        10311  224 "高"
               //-- "Above normal"
-        10312  225 ""
+        10312  225 "通常以上"
               //-- "Normal"
-        10313  226 ""
+        10313  226 "通常"
               //-- "Below normal"
-        10314  227 ""
+        10314  227 "通常以下"
               //-- "Low"
-        10315  228 ""
+        10315  228 "低"
       }
             //-- "Enable high resolution system timer"
       10319  229 "高解像度タイマーを有効化"
@@ -525,11 +525,11 @@ menu    100 {
               //-- "Icon size"
         popup  281 "アイコンサイズ" {
                 //-- "16 x 16 pixels"
-          10678  282 ""
+          10678  282 "16 x 16 ピクセル"
                 //-- "24 x 24 pixels"
-          10679  283 ""
+          10679  283 "24 x 24 ピクセル"
                 //-- "32 x 32 pixels"
-          10680  284 ""
+          10680  284 "32 x 32 ピクセル"
         }
               //-- "Save snapshot"
         10318  286 "スナップショットの保存"
@@ -574,7 +574,7 @@ menu    100 {
             //-- "Help"
       popup  314 "ヘルプ" {
               //-- "&Help"
-        10503  315 "ヘルプ"
+        10503  315 "ヘルプ(&H)"
               //-- "&What\'s New"
         10505  317 ""
               //-- "&FB Neo homepage"
@@ -584,9 +584,9 @@ menu    100 {
               //-- "FB Neo &Github"
         10507  321 ""
               //-- "&System information"
-        10502  323 "システム情報"
+        10502  323 "システム情報(&S)"
               //-- "&About FB Neo"
-        10501  324 "FB Neoについて"
+        10501  324 "FB Neoについて(&A)"
       }
     }
   }
@@ -1245,7 +1245,7 @@ dialog	  61 "ゲームの選択" {
         //-- "ROM:"
   20063	  11 ""
         //-- "Info:"
-  20064	  12 "インフォ:"
+  20064	  12 "情報:"
         //-- "Released:"
   20067	  13 "リリース:"
         //-- "Genre:"
@@ -1291,11 +1291,11 @@ dialog	  62 "ショットファクトリー" {
         //-- "Keep"
   20207	   0 "キープ"
         //-- "&Capture"
-  20061	   1 "キャプチャー"
+  20061	   1 "キャプチャー(&C)"
         //-- "OK"
       1	   2 ""
         //-- "&Advance Frame"
-  20062	   3 "アドバンスフレーム"
+  20062	   3 "アドバンスフレーム(&A)"
         //-- "Layer &1"
   20202	   4 "レイヤー &1"
         //-- "Layer &2"
@@ -1619,7 +1619,7 @@ dialog	  79 "NeoGeo CDZ ゲームリスト" {
 }
 
         //-- "Game Information"
-dialog	  81 "ゲーム インフォメーション" {
+dialog	  81 "ゲーム情報" {
         //-- "Tab1"
   20500	   0 ""
         //-- "Game:"
@@ -1757,7 +1757,7 @@ string   204 "注意事項 これはアルファ版ソフトウェアです。そのため、オーディオ/ビ
 string   206 "これはベータ版のソフトウェアです。そのため、機能が不足していたり、お使いのシステムで問題が発生する可能性があります。"
 
         //-- "Cheat name"
-string   220 "チートネーム"
+string   220 "チート名"
 
         //-- "Status"
 string   222 "ステータス"
@@ -2189,7 +2189,7 @@ string   768 ""
 string   770 ""
 
         //-- "Neo Geo"
-string   772 ""
+string   772 "ネオジオ"
 
         //-- "PGM"
 string   774 ""
@@ -2450,16 +2450,16 @@ string  1012 ""
 string  1014 ""
 
         //-- "&Arcade"
-string  1040 "アーケード"
+string  1040 "アーケード(&A)"
 
         //-- "&Other..."
-string  1042 "その他..."
+string  1042 "その他...(&O)"
 
         //-- "&Other Gamma value..."
-string  1044 "他のガンマ値..."
+string  1044 "他のガンマ値...(&O)"
 
         //-- "Adjust &CPU speed..."
-string  1046 "CPU速度を調整する..."
+string  1046 "CPU速度を調整する...(&C)"
 
         //-- "Load state from active slot (no %d)\tF9"
 string  1048 "現在のスロットをロードする(no %d)\tF9"
@@ -2645,7 +2645,7 @@ string  1810 "このROMsetは問題ありません。"
 string  1812 "このROMsetには以下の問題があります:"
 
         //-- "No data was found, the game will not run!"
-string  1814 "データーが見つかりません、ゲームは実行されません！"
+string  1814 "データが見つかりません、ゲームは実行されません！"
 
         //-- "essential data is missing, the game will not run!"
 string  1816 "必要不可欠なデータが欠落しているので、このゲームは実行されません！"
@@ -2654,10 +2654,10 @@ string  1816 "必要不可欠なデータが欠落しているので、このゲームは実行されません！
 string  1818 "必要不可欠なデータが不正です、このゲームは実行されません！"
 
         //-- "data is missing."
-string  1820 "データーが見つかりません。"
+string  1820 "データが見つかりません。"
 
         //-- "data is invalid."
-string  1822 "データーは不正です。"
+string  1822 "データは不正です。"
 
         //-- "%.32hs was found (%.512s).\n"
 string  1824 ""
@@ -2705,7 +2705,7 @@ string  1850 ""
 string  1852 "CRCが不一致です %.32hs from %.512s"
 
         //-- "No HDD data was found, the game will not run!"
-string  1854 "ハードディスクデーターが見つかりません、ゲームは実行されません！"
+string  1854 "ハードディスクデータが見つかりません、ゲームは実行されません！"
 
         //-- "There was a problem starting \'%.128s\'.\n"
 string  1860 "実行時に問題がありました  \'%.128s\'.\n"
@@ -2759,7 +2759,7 @@ string  1910 "kailleraclient.dllが見つかりません。"
 string  1912 "リストからドライバーが選択されていません。"
 
         //-- "No driver has been selected for slot 1."
-string  1914 "スロット1にドライバが選択されていない。"
+string  1914 "スロット1にドライバーが選択されていない。"
 
         //-- "This game isn\'t working. Load it anyway?"
 string  1916 "このゲームは動作不能ですが、ロードしますか？"
